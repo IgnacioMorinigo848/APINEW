@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import "../Style/FormLog.css"
 import { useNavigate } from "react-router-dom";
-import "../Style/FormLog.css"
 
 export function InsertEmail(){
     const [email, setEmail] = useState("");
